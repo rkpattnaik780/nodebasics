@@ -1,0 +1,24 @@
+{
+  "name": "rkpattnaik780-testing",
+  "version": "1.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rkpattnaik780/frontendtasks.git"
+  },
+  "keywords": [],
+  "author": "rkpattnaik780",
+  "license": "ISC",
+  "description": " Managing packages with npm ",
+  "dependencies": {
+  
+  },
+  "bugs": {
+    "url": "https://github.com/rkpattnaik780/frontendtasks/issues"
+  },
+  "homepage": "https://github.com/rkpattnaik780/frontendtasks#readme",
+  "devDependencies": {}
+}
