@@ -2,7 +2,7 @@ var answer = require("./task6i") ;
 var directory = process.argv[2] ;
 var extension = process.argv[3] ;
 
-answer( directory , extension , function( err , store){
+answer( directory , extension , function( err , store){    //
     if(err) { throw err ;}
    
     else{
