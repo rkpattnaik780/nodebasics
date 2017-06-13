@@ -17,3 +17,6 @@ var server = net.createServer(function (socket) {   // net.createServer takes a 
 });                                         // read from and written to .
 
 server.listen(server1);
+/*
+The socket object implements both the readable and writable stream interface,
+*/
