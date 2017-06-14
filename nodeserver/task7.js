@@ -10,7 +10,7 @@ http.get( directory , function callback (res){    // doesnt have a error object 
 }) ;
 
 /*
-   callback function is called when connection is established.
+   callback function is called when connection is established.(work is done)
    res.on('data') is called when there's a chunk of data ( will be called more than once ) .
    res.on('close') is called when the connection closes.
 */
