@@ -22,7 +22,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public'))); // sets the public directory as container of static items
 
-app.use('/', index);
+app.use('/', index); //index variables holds address of index.js , which further renders the index jade file
 app.use('/users', users);
 
 // catch 404 and forward to error handler
