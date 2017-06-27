@@ -13,7 +13,7 @@ mongo.connect(url, function(err, db) {
   }, {
     name: 1,
     age: 1,
-    _id: 0
+    _id: 1
   }).toArray(function(err, docs) {
     if (err) throw err
     console.log(docs)
