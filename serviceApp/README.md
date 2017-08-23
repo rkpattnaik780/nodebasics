@@ -1,0 +1,1 @@
+The Hello World of using Service Worker API to load the static pages in the cache storage and run it when connection is lost.
